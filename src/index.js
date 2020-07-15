@@ -1,1 +1,3 @@
-alert("Webpack Ready!");
+import homePage from "./homePage";
+
+window.onload = homePage;
