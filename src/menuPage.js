@@ -1,14 +1,11 @@
 import tableImg from './images/restaurant-table.jpg';
 
-const homePage = () => {
+const menuPage = () => {
   let contentElement = document.createElement("div");
-  contentElement.id = "homeContent";
+  contentElement.id = "menuContent";
   let heading = document.createElement("h1");
-  heading.innerHTML = "THE BEST PLACE TO KICK OF YOUR DAY";
-  let homeImg = document.createElement('img');
-  homeImg.src = tableImg;
+  heading.innerHTML = "THE DELICIOUS DISHES";
 
-  contentElement.appendChild(homeImg);
   contentElement.appendChild(heading);
 
   let about = document.createElement("p");
@@ -22,9 +19,7 @@ const homePage = () => {
   roasted parts of sentences fly into your mouth.`;
   
   contentElement.appendChild(about);
-
   document.body.appendChild(contentElement);
-
 };
 
-export default homePage;
+export default menuPage;

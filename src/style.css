@@ -23,3 +23,15 @@ li {
   font-size: large;
   color: blue;
 }
+
+#homeContent {
+  display: block;
+}
+
+#menuContent {
+  display: none;
+}
+
+#contactContent {
+  display: none;
+}

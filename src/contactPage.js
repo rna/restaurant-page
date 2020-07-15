@@ -1,14 +1,8 @@
-import tableImg from './images/restaurant-table.jpg';
-
-const homePage = () => {
+const contactPage = () => {
   let contentElement = document.createElement("div");
-  contentElement.id = "homeContent";
+  contentElement.id = "contactContent";
   let heading = document.createElement("h1");
-  heading.innerHTML = "THE BEST PLACE TO KICK OF YOUR DAY";
-  let homeImg = document.createElement('img');
-  homeImg.src = tableImg;
-
-  contentElement.appendChild(homeImg);
+  heading.innerHTML = "CONTACT";
   contentElement.appendChild(heading);
 
   let about = document.createElement("p");
@@ -27,4 +21,4 @@ const homePage = () => {
 
 };
 
-export default homePage;
+export default contactPage;
