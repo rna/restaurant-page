@@ -1,14 +1,14 @@
 import tableImg from './images/restaurant-table.jpg';
 
 const menuPage = () => {
-  let contentElement = document.createElement("div");
-  contentElement.id = "menuContent";
-  let heading = document.createElement("h1");
-  heading.innerHTML = "THE DELICIOUS DISHES";
+  const contentElement = document.createElement('div');
+  contentElement.id = 'menuContent';
+  const heading = document.createElement('h1');
+  heading.innerHTML = 'THE DELICIOUS DISHES';
 
   contentElement.appendChild(heading);
 
-  let about = document.createElement("p");
+  const about = document.createElement('p');
 
   about.innerHTML = `On her way she met a copy. The copy warned the Little Blind Text, that
   where it came from it would have been rewritten a thousand times and
@@ -17,7 +17,7 @@ const menuPage = () => {
   country. A small river named Duden flows by their place and supplies it
   with the necessary regelialia. It is a paradisematic country, in which
   roasted parts of sentences fly into your mouth.`;
-  
+
   contentElement.appendChild(about);
   document.body.appendChild(contentElement);
 };
