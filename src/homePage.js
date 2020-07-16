@@ -1,4 +1,4 @@
-import tableImg from './images/restaurant-table.jpg';
+import tableImage from './images/restaurant-table.jpg';
 
 const homePage = () => {
   const contentElement = document.createElement('div');
@@ -6,7 +6,7 @@ const homePage = () => {
   const heading = document.createElement('h1');
   heading.innerHTML = 'THE BEST PLACE TO KICK OF YOUR DAY';
   const homeImg = document.createElement('img');
-  homeImg.src = tableImg;
+  homeImg.src = tableImage;
 
   contentElement.appendChild(homeImg);
   contentElement.appendChild(heading);

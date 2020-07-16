@@ -1,10 +1,16 @@
+import contactImage from './images/contact.jpg';
+
 const contactPage = () => {
   const contentElement = document.createElement('div');
   contentElement.id = 'contactContent';
   const heading = document.createElement('h1');
   heading.innerHTML = 'CONTACT';
-  contentElement.appendChild(heading);
 
+  const contactImg = document.createElement('img');
+  contactImg.src = contactImage;
+
+  contentElement.appendChild(contactImg);
+  contentElement.appendChild(heading);
   const about = document.createElement('p');
 
   about.innerHTML = `On her way she met a copy. The copy warned the Little Blind Text, that

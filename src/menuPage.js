@@ -1,11 +1,14 @@
-import tableImg from './images/restaurant-table.jpg';
+import menuImage from './images/food-menu.jpg';
 
 const menuPage = () => {
   const contentElement = document.createElement('div');
   contentElement.id = 'menuContent';
   const heading = document.createElement('h1');
   heading.innerHTML = 'THE DELICIOUS DISHES';
+  const menuImg = document.createElement('img');
+  menuImg.src = menuImage;
 
+  contentElement.appendChild(menuImg);
   contentElement.appendChild(heading);
 
   const about = document.createElement('p');
