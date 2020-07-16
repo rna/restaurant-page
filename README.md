@@ -51,7 +51,9 @@ git clone https://github.com/rna/restaurant-page
 
 ### Usage
 
-Open `dist/index.html` file in your browser.
+1. Run `npm install` to install all dependencies
+
+2. Run `npm start` to start the local server
 
 <!-- ## Roadmap -->
 
