@@ -1,0 +1,37 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  width: 20rem;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  list-style-type: none;
+  font-size: large;
+  color: blue;
+}
+
+#homeContent {
+  display: block;
+}
+
+#menuContent {
+  display: none;
+}
+
+#contactContent {
+  display: none;
+}
